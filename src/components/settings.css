@@ -1,0 +1,147 @@
+.settings-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  min-width: 70vw;
+  margin-left: 90px;
+}
+
+.toggle-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.temperature-container {
+  width: 100%;
+}
+
+.temperature-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.temperature-column {
+  text-align: center;
+}
+
+.water-level-buttons button {
+  background: none;
+  border: none;
+  font-size: 24px;
+}
+
+.arrow-icon{
+  font-size: 24px;
+  color: white;
+}
+
+.settings-data {
+  text-align: center;
+}
+
+.temp-1, .temp-2, .temp-3{
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  padding: 40px;
+  border-radius: 4px;
+}
+
+.save-button, .reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.save-button:hover {
+  background-color: #035bb9;
+}
+
+
+/* Settings */
+
+.settings-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.settings-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.settings-section {
+  flex: 1;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.system-1, .system-2, .system-3{
+  display: flex;
+  border: 1px solid white;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.save-button,
+.reset-button {
+  font-size: 24px;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset-button.resetting {
+  background-color:  #035bb9;
+  color: #fff;
+}
+
+input[type="range"] {
+  width: calc(100% - 20px); /* Adjust width as needed */
+  margin: 0 10px;
+}

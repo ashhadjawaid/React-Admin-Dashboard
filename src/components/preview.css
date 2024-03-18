@@ -1,0 +1,53 @@
+/* Preview.css */
+.preview-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack elements vertically */
+    height: 90vh; /* Make the container take the full height of the viewport */
+  }
+  
+  .chart-title {
+    font-size: 24px; /* Adjust font size to make it bigger */
+    margin-top: 20px;
+  }
+  
+  .chart-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center items vertically */
+    width: 100%;
+    height: 100%;
+  }
+  
+  .recharts-wrapper {
+    width: 100%; /* Ensure the chart takes the full width */
+  }
+  
+  .recharts-surface {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .recharts-cartesian-axis-tick-value {
+    font-size: 16px; /* Adjust font size of axis labels */
+  }
+  
+  .recharts-legend-item-text {
+    font-size: 18px; /* Adjust font size of legend items */
+  }
+  
+  .recharts-tooltip-label {
+    font-size: 18px; /* Adjust font size of tooltip labels */
+  }
+  
+  .recharts-tooltip-item-value {
+    font-size: 18px; /* Adjust font size of tooltip values */
+  }
+  
+  .recharts-tooltip-cursor {
+    stroke-width: 3px; /* Increase cursor stroke width for better visibility */
+  }
+  

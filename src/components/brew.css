@@ -1,0 +1,465 @@
+.main-container-brew {
+  grid-area: main;
+  overflow-y: auto;
+  padding: 20px 20px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.main-title-brew {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.main-cards-brew {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 15px 0;
+}
+
+.card-brew {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.card-brew:hover {
+  cursor: pointer;
+}
+
+.card-brew:first-child {
+  background-color: #2962ff;
+}
+
+.card-brew:nth-child(2) {
+  background-color: #d19c26;
+}
+
+.card-brew:nth-child(3) {
+  background-color: #2e7d32;
+}
+
+.card-brew:nth-child(4) {
+  background-color: #d50000;
+}
+
+.card-brew:nth-child(5) {
+  background-color: #4915ad;
+}
+
+.card-brew:nth-child(6) {
+  background-color: #641001;
+}
+
+.card-inner-brew {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-inner-brew>.card_icon {
+  font-size: 25px;
+}
+
+/* Second main div */
+.second-main {
+  margin-top: 40px;
+}
+
+/* Button div */
+.button-div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.toggle-button {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-label {
+  margin-right: 8px;
+}
+
+.toggle-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button.active {
+  background-color: #2962ff;
+  color: white;
+}
+
+.toggle-button:not(.active) {
+  background-color: white;
+  color: black;
+}
+
+
+/* Third Main Div */
+.third-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.sub-div1,
+.sub-div2,
+.sub-div3 {
+  flex: 1;
+  margin-right: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sub-div1,
+.sub-div2 {
+  margin-right: 10px;
+}
+
+.sub-div1,
+.sub-div2,
+.sub-div3 {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+}
+
+.sub-div1 h4,
+.sub-div2 h4,
+.sub-div3 h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.box {
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+.box p {
+  margin: 5px 0;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container button {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-div button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-div button:hover {
+  background-color: #0056b3;
+}
+
+/* Main container for P1 */
+.main-p1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Styling for each division inside main container */
+.div1-p1,
+.div2-p1 {
+  width: 45%;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 30px;
+}
+
+/* Styling for buttons and toggles */
+.button-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Toggle button styling */
+.toggle-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-label {
+  margin-right: 8px;
+}
+
+.toggle-button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.toggle-button:not(.active) {
+  background-color: #ddd;
+  color: #333;
+}
+
+.toggle-container {
+  display: flex;
+  justify-content: center;
+}
+
+.toggle-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  /* Adjust padding for larger buttons */
+  background-color: #ccc;
+  border: none;
+  border-radius: 8px;
+  /* Adjust border radius for rounded corners */
+  cursor: pointer;
+  font-size: 16px;
+  /* Adjust font size for larger text */
+}
+
+.toggle-button.active {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* Styling for MANUAL case */
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.more-options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.options,
+.timer-controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* Set the width to 100% */
+  height: 100%;
+  /* Set the desired height */
+  margin-top: 30px;
+}
+
+.options {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.option-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.option-row div {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.timer-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.start-stop-button,
+.reset-button {
+  padding: 8px 20px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.start-stop-button:hover,
+.reset-button:hover {
+  background-color: #0056b3;
+}
+
+.timer-circle {
+  position: relative;
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  background: transparent;
+  border: 6px solid #2962ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #2962ff;
+}
+
+.timer-circle span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.timer-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  clip-path: polygon(50% 0%, 50% 100%, 50% 100%, 50% 0%);
+  background-color: #2962ff;
+  transform-origin: center;
+}
+
+.timer-fill.stop {
+  background-color: transparent;
+}
+
+.range-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  /* border: 1px solid white; */
+  height: 100px;
+}
+
+.range-div input[type="range"] {
+  width: 50%;
+  /* Adjust width as needed */
+}
+
+
+/* MORE */
+
+.more-options-brew {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.options-brew {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.option-row-brew {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.option-row-brew .toggle-button {
+  /* Set fixed dimensions for toggle buttons */
+  width: 200px;
+  height: 50px;
+}
+
+.save-button-brew {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.save-button-brew button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-button-brew button:hover {
+  background-color: #0056b3;
+}
